@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Eidos Observer</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: system-ui, sans-serif;
+      background: #0b0b0f;
+      color: #eaeaf0;
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+    }
+    header {
+      padding: 16px;
+      font-size: 20px;
+      font-weight: bold;
+    }
+    main {
+      flex: 1;
+      padding: 16px;
+      opacity: 0.6;
+    }
+    footer {
+      display: flex;
+      gap: 8px;
+      padding: 12px;
+      border-top: 1px solid #222;
+    }
+    input {
+      flex: 1;
+      padding: 10px;
+      border-radius: 8px;
+      border: none;
+      background: #1a1a22;
+      color: #fff;
+    }
+    button {
+      padding: 10px 14px;
+      border-radius: 8px;
+      border: none;
+      background: #6c63ff;
+      color: #fff;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <header>🧠 Eidos Observer</header>
+
+  <main id="memory">
+    No fragments stored yet.
+  </main>
+
+  <footer>
+    <input placeholder="Whisper a memory..." />
+    <button>Record</button>
+  </footer>
+
+</body>
+</html>
